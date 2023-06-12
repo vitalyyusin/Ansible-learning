@@ -1,0 +1,6 @@
+---
+# roles/common/tasks/redhat.yml
+- name: Install vim
+  yum: # а для RHEL это yml
+    name: "vim"
+    state: present
